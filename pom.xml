@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.senia.mq</groupId>
+  <artifactId>MQTest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>MQTest</name>
+  <build>
+      <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.2</version>
+        <configuration>
+          <fork>true</fork>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>2.3.2</version>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.ibm</groupId>
+  		<artifactId>mq.jar</artifactId>
+  		<version>7.5.0.2</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.ibm.mq</groupId>
+  		<artifactId>jmqi</artifactId>
+  		<version>7.5.0.2</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.ibm.mq</groupId>
+  		<artifactId>headers</artifactId>
+  		<version>7.5.0.2</version>
+  	</dependency>
+  </dependencies>  
+  
+  
+  
+  
+</project>
